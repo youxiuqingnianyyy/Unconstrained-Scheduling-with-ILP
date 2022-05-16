@@ -1,0 +1,5 @@
+model ucs.mod
+data ucs.dat
+option solver 'cplex';
+solve;
+display MaxLatency;
